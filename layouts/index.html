@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+{{ partial "homepage-pagination.html" . }}
+
+{{ range first 1 ($.Site.GetPage "archive").Pages.ByWeight.Reverse }}
+<section id="content">
+    <h2 class="center">
+        {{ .Title }}
+    </h2>
+    <ul class="posts">
+        <div class="post">
+            <div class="center">
+                {{ .Content }}
+            </div>
+        </div>
+    </ul>
+</section>
+{{ end }}
+
+{{ partial "homepage-pagination.html" . }}
+
+
+{{ partial "footer.html" . }}

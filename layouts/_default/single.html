@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+
+{{ partial "page-pagination.html" . }}
+
+<section id="content">
+    <h2 class="center">
+        {{ .Title }}
+    </h2>
+    <ul class="archives">
+        <div class="archive">
+            <div class="center">
+                {{ .Content }}
+            </div>
+        </div>
+    </ul>
+</section>
+
+{{ partial "page-pagination.html" . }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,43 @@
+<footer>
+    {{ with .Site.Params.social }}
+    <ul class="list-reset center">
+        {{ range sort .}}
+            {{ if .icon }}
+            <li class="inline-block mr1">
+                <a
+                href="{{ .url }}"
+                aria-label="{{ .name }}"
+                target="_blank"
+                >
+                    <i
+                    class="{{ .icon }}"
+                    aria-hidden="true"
+                    style="font-size: 2rem;"
+                    ></i>
+                </a>
+            </li>
+            {{ else }}
+            <li class="inline-block mr1">
+                <a
+                href="{{ .url }}"
+                aria-label="{{ .name }}"
+                target="_blank"
+                >
+                    {{ .name }}
+                </a>
+            </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+    {{ end }}
+    <div class="center mb3">
+        {{with .Site.Author.email}}
+            email me at
+            <a href="mailto:{{.}}">{{.}}</a>
+        {{end}}
+
+    </div>
+</footer>
+
+</body>
+</html>

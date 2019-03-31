@@ -1,0 +1,44 @@
+{{ $thisPermalink := .Permalink }}
+<section class="paginate center">
+    <div class="pagination clearfix">
+        {{ range first 1 ($.Site.GetPage "archive").Pages.ByWeight }}
+            <a
+            class="col col-2 {{if eq .Permalink $thisPermalink }}muted{{end}}"
+            {{if ne .Permalink $thisPermalink }}href="{{.Permalink}}"{{end}}
+            >
+                <small>&#9679;</small>
+                First
+            </a>
+
+        {{ end }}
+        {{ range first 1 (after 1 ($.Site.GetPage "archive").Pages.ByWeight.Reverse) }}
+            <a
+            class="col col-2 {{if eq .Permalink $thisPermalink }}muted{{end}}"
+            {{if ne .Permalink $thisPermalink }}href="{{.Permalink}}"{{end}}
+            >
+                <small>&#9679;</small>
+                Prev
+            </a>
+        {{ end }}
+        <a
+        class="col col-4"
+        href="/archive"
+        >
+            <small>&#9679;</small>
+            Archive
+            <small>&#9679;</small>
+        </a>
+        <a
+        class="col col-2 muted"
+        >
+            Next
+            <small>&#9679;</small>
+        </a>
+        {{ range first 1 ($.Site.GetPage "archive").Pages.ByWeight.Reverse }}
+            <a class="col col-2 muted">
+                Lastest
+                <small>&#9679;</small>
+            </a>
+        {{ end }}
+    </div>
+</section>
