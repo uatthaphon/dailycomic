@@ -1,6 +1,6 @@
 # Daily Comic
 
-Simple theme for daily comic.
+Simple and clean daily comic blog theme for hugo.
 
 ## Installation
 In the folder of your Hugo site, run:
