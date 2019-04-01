@@ -11,7 +11,8 @@
 
     {{with .Site.Author.name}}<meta name="author" content="{{ . }}" />{{end}}
 
-    {{ $styleBassCss := resources.Get "sass/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    {{ $options := (dict "targetPath" "css/styles.css" ) }}
+    {{ $styleBassCss := resources.Get "sass/styles.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $styleBassCss.Permalink }}">
 
 </head>

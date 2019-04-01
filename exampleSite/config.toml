@@ -1,12 +1,12 @@
-baseURL = "http://example.org/"
+baseURL = "https://github.com/uatthaphon/dailycomic/"
 languageCode = "en-us"
 title = "Daily Comic"
 
 theme = "dailycomic"
 
 [author]
-    name = "Someone"
-    email = "someone@gmail.com"
+    name = "Atthaphon Urairat"
+    email = "email@example.com"
 [params]
     sitename = "Daily Comic"
 
@@ -17,29 +17,29 @@ theme = "dailycomic"
     name = "Github"
     icon = "fab fa-github color-github"
     weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Facebook"
-    icon = "fab fa-facebook color-facebook"
-    weight = 2
-    url = "https://www.facebook.com/johndoe/"
+    url = "https://github.com/uatthaphon/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter color-twitter"
-    weight = 3
-    url = "https://twitter.com/johndoe/"
+    weight = 22
+    url = "https://twitter.com/u_atthaphon"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin color-linkedin"
-    weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
+    weight = 3
+    url = "https://www.linkedin.com/in/atthaphon-urairat-24818328/"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium color-medium"
+    weight = 4
+    url = "https://medium.com/@u.atthaphon"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-youtube color-youtube"
     weight = 5
-    url = "https://medium.com/@johndoe"
+    url = "https://www.youtube.com/user/UAtthaphon/"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss-square color-rss"
-    weight = 5
+    weight = 6
     url = "/index.xml"
