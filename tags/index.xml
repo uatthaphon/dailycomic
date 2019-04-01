@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Daily Comic</title>
-    <link>https://github.com/uatthaphon/dailycomic/tags/</link>
+    <link>https://uatthaphon.github.io/dailycomic/tags/</link>
     <description>Recent content in Tags on Daily Comic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,24 +10,24 @@
     <webMaster>email@example.com (Atthaphon Urairat)</webMaster>
     <lastBuildDate>Sat, 30 Mar 2019 17:50:03 +0700</lastBuildDate>
     
-	<atom:link href="https://github.com/uatthaphon/dailycomic/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://uatthaphon.github.io/dailycomic/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fun</title>
-      <link>https://github.com/uatthaphon/dailycomic/tags/fun/</link>
+      <link>https://uatthaphon.github.io/dailycomic/tags/fun/</link>
       <pubDate>Sat, 30 Mar 2019 17:50:03 +0700</pubDate>
       <author>email@example.com (Atthaphon Urairat)</author>
-      <guid>https://github.com/uatthaphon/dailycomic/tags/fun/</guid>
+      <guid>https://uatthaphon.github.io/dailycomic/tags/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://github.com/uatthaphon/dailycomic/tags/life/</link>
+      <link>https://uatthaphon.github.io/dailycomic/tags/life/</link>
       <pubDate>Sat, 30 Mar 2019 17:50:03 +0700</pubDate>
       <author>email@example.com (Atthaphon Urairat)</author>
-      <guid>https://github.com/uatthaphon/dailycomic/tags/life/</guid>
+      <guid>https://uatthaphon.github.io/dailycomic/tags/life/</guid>
       <description></description>
     </item>
     
