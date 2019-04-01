@@ -1,4 +1,4 @@
-baseURL = "https://github.com/uatthaphon/dailycomic/"
+baseURL = "http://example.org"
 languageCode = "en-us"
 title = "Daily Comic"
 
@@ -17,27 +17,27 @@ theme = "dailycomic"
     name = "Github"
     icon = "fab fa-github color-github"
     weight = 1
-    url = "https://github.com/uatthaphon/"
+    url = "https://github.com/example/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter color-twitter"
     weight = 22
-    url = "https://twitter.com/u_atthaphon"
+    url = "https://twitter.com/example"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin color-linkedin"
     weight = 3
-    url = "https://www.linkedin.com/in/atthaphon-urairat-24818328/"
+    url = "https://www.linkedin.com/in/example/"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-medium color-medium"
     weight = 4
-    url = "https://medium.com/@u.atthaphon"
+    url = "https://medium.com/@example"
 [[params.social]]
     name = "Medium"
     icon = "fab fa-youtube color-youtube"
     weight = 5
-    url = "https://www.youtube.com/user/UAtthaphon/"
+    url = "https://www.youtube.com/user/example/"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss-square color-rss"
