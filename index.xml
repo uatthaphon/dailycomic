@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily Comic</title>
+    <link>https://github.com/uatthaphon/dailycomic/</link>
+    <description>Recent content on Daily Comic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>email@example.com (Atthaphon Urairat)</managingEditor>
+    <webMaster>email@example.com (Atthaphon Urairat)</webMaster>
+    <lastBuildDate>Sat, 30 Mar 2019 17:50:03 +0700</lastBuildDate>
+    
+	<atom:link href="https://github.com/uatthaphon/dailycomic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/1-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:03 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/1-comic/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>2 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/2-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:09 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/2-comic/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>3 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/3-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:11 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/3-comic/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>4 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/4-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:14 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/4-comic/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>5 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/5-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:17 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/5-comic/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>6 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/6-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:20 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/6-comic/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>7 Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/7-comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:23 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/7-comic/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Daily Comic</title>
+    <link>https://github.com/uatthaphon/dailycomic/categories/</link>
+    <description>Recent content in Categories on Daily Comic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>email@example.com (Atthaphon Urairat)</managingEditor>
+    <webMaster>email@example.com (Atthaphon Urairat)</webMaster>
+    <lastBuildDate>Sat, 30 Mar 2019 17:50:03 +0700</lastBuildDate>
+    
+	<atom:link href="https://github.com/uatthaphon/dailycomic/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://github.com/uatthaphon/dailycomic/categories/blog/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:03 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comic</title>
+      <link>https://github.com/uatthaphon/dailycomic/categories/comic/</link>
+      <pubDate>Sat, 30 Mar 2019 17:50:03 +0700</pubDate>
+      <author>email@example.com (Atthaphon Urairat)</author>
+      <guid>https://github.com/uatthaphon/dailycomic/categories/comic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
